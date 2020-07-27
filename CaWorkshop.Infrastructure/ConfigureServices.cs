@@ -8,9 +8,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace CaWorkshop.Infrastructure
 {
-    public static class DependencyInjection
+    public static class ConfigureServices
     {
-        public static IServiceCollection AddInfrastructure(
+        public static IServiceCollection AddInfrastructureServices(
             this IServiceCollection services,
             IConfiguration configuration)
         {
