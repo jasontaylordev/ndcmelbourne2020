@@ -1,15 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaWorkshop.WebUI", "CaWorkshop.WebUI\CaWorkshop.WebUI.csproj", "{CFCA9A3C-A1B4-496D-98E4-0FDE076A7932}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaWorkshop.WebUI", "CaWorkshop.WebUI\CaWorkshop.WebUI.csproj", "{CFCA9A3C-A1B4-496D-98E4-0FDE076A7932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaWorkshop.Domain", "CaWorkshop.Domain\CaWorkshop.Domain.csproj", "{606ED8EA-38C9-480E-AF70-8AB151091EA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaWorkshop.Domain", "CaWorkshop.Domain\CaWorkshop.Domain.csproj", "{606ED8EA-38C9-480E-AF70-8AB151091EA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaWorkshop.Application", "CaWorkshop.Application\CaWorkshop.Application.csproj", "{8C569A5F-0EE4-475F-9AC6-3CCEC4870F86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaWorkshop.Application", "CaWorkshop.Application\CaWorkshop.Application.csproj", "{8C569A5F-0EE4-475F-9AC6-3CCEC4870F86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaWorkshop.Infrastructure", "CaWorkshop.Infrastructure\CaWorkshop.Infrastructure.csproj", "{6E12F1C0-0611-4CA9-892F-B8800978B456}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaWorkshop.Infrastructure", "CaWorkshop.Infrastructure\CaWorkshop.Infrastructure.csproj", "{6E12F1C0-0611-4CA9-892F-B8800978B456}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F39B45E1-72FD-49D2-A466-971053EDE015}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{47E47165-FBE3-470D-AD03-FE8D8D6E73ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaWorkshop.Application.UnitTests", "CaWorkshop.Application.UnitTests\CaWorkshop.Application.UnitTests.csproj", "{0C976B27-1FC8-47ED-87EF-C6E77083F99A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CFCA9A3C-A1B4-496D-98E4-0FDE076A7932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +75,30 @@ Global
 		{6E12F1C0-0611-4CA9-892F-B8800978B456}.Release|x64.Build.0 = Release|Any CPU
 		{6E12F1C0-0611-4CA9-892F-B8800978B456}.Release|x86.ActiveCfg = Release|Any CPU
 		{6E12F1C0-0611-4CA9-892F-B8800978B456}.Release|x86.Build.0 = Release|Any CPU
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A}.Debug|x64.Build.0 = Debug|Any CPU
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A}.Debug|x86.Build.0 = Debug|Any CPU
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A}.Release|x64.ActiveCfg = Release|Any CPU
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A}.Release|x64.Build.0 = Release|Any CPU
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A}.Release|x86.ActiveCfg = Release|Any CPU
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFCA9A3C-A1B4-496D-98E4-0FDE076A7932} = {F39B45E1-72FD-49D2-A466-971053EDE015}
+		{606ED8EA-38C9-480E-AF70-8AB151091EA1} = {F39B45E1-72FD-49D2-A466-971053EDE015}
+		{8C569A5F-0EE4-475F-9AC6-3CCEC4870F86} = {F39B45E1-72FD-49D2-A466-971053EDE015}
+		{6E12F1C0-0611-4CA9-892F-B8800978B456} = {F39B45E1-72FD-49D2-A466-971053EDE015}
+		{0C976B27-1FC8-47ED-87EF-C6E77083F99A} = {47E47165-FBE3-470D-AD03-FE8D8D6E73ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38EF9203-2D1D-4CBD-BF9D-B890707540EB}
 	EndGlobalSection
 EndGlobal
