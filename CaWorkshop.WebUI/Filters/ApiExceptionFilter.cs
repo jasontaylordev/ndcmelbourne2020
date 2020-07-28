@@ -38,7 +38,7 @@ namespace CaWorkshop.WebUI.Filters
                 return;
             }
 
-            HandleUnknownException(context);
+            // HandleUnknownException(context);
         }
 
         private void HandleValidationException(ExceptionContext context)
